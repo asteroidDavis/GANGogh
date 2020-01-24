@@ -3,14 +3,15 @@ A script designed to 1) resize all of the downloaded images to desired dimension
 """
 
 import os
-import scipy.misc
 import random
 
-root='./fullimages'
+import scipy.misc
+
+root='./data'
 
 
 #Set your own PATH 
-PATH = os.path.normpath('C:/Users/kenny/Desktop/toGit/misc/smallimages/')
+PATH = os.path.normpath('C:/Users/nated/OneDrive/Software/GANGogh/misc/smallimages/')
 
 for subdir, dirs, files in os.walk(root):
     style = subdir[2:]

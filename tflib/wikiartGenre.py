@@ -10,25 +10,25 @@ import os
 DIM = 64
 
 #Set your own path to images
-path = os.path.normpath('C:/Users/kenny/Desktop/toGit/misc/smallimages/')
+path = os.path.normpath('C:/Users/nated/OneDrive/Software/GANGogh/misc/smallimagesdata/')
 
 #This dictionary should be updated to hold the absolute number of images associated with each genre used during training
-styles = {'abstract': 14794,
-          'animal-painting': 1319,
-          'cityscape': 5833,
-          'figurative': 3335,
-          'flower-painting': 1260,
-          'genre-painting': 14881,
-          'landscape': 14893,
-          'marina': 1199,
-          'mythological-painting': 1670,
-          'nude-painting-nu': 2276,
-          'portrait': 14496,
-          'religious-painting': 7915,
-          'still-life': 2314,
-          'symbolic-painting': 2454}
+styles = {
+          'animal-painting': 4,
+          'cityscape': 5,
+          'figurative': 4,
+          'flower-painting': 24,
+          'genre-painting': 1,
+          'landscape': 17,
+          'marina': 8,
+          'mythological-painting': 2,
+          'nude-painting-nu': 1,
+          'portrait': 2,
+          
+          'still-life': 2,
+          'symbolic-painting': 2}
 
-styleNum = {'abstract': 0,
+styleNum = {
             'animal-painting': 1,
             'cityscape': 2,
             'figurative': 3,
@@ -39,11 +39,11 @@ styleNum = {'abstract': 0,
             'mythological-painting': 8,
             'nude-painting-nu': 9,
             'portrait': 10,
-            'religious-painting': 11,
+            
             'still-life': 12,
             'symbolic-painting': 13}
 
-curPos = {'abstract': 0,
+curPos = {
           'animal-painting': 0,
           'cityscape': 0,
           'figurative': 0,
@@ -54,7 +54,7 @@ curPos = {'abstract': 0,
           'mythological-painting': 0,
           'nude-painting-nu': 0,
           'portrait': 0,
-          'religious-painting': 0,
+          
           'still-life': 0,
           'symbolic-painting': 0}
 
